@@ -1,0 +1,14 @@
+{
+  "name": "ezpark-local-demo",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Nederlandstalige lokale EZpark-testversie, zonder echte mailkoppelingen",
+  "scripts": {
+    "start": "python3 server.py",
+    "check": "node --check app.js",
+    "test": "node tests/workflows.mjs && python3 tests/test_server.py"
+  },
+  "devDependencies": {
+    "happy-dom": "21.0.4"
+  }
+}

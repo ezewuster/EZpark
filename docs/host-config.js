@@ -1,0 +1,1 @@
+window.EZPARK_STATIC_HOSTING = true;

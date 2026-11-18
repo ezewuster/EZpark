@@ -1,0 +1,11 @@
+data/
+node_modules/
+.sites-checkout/
+source-demo/
+TESTRESULTATEN.json
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.backup.json
