@@ -4,6 +4,8 @@ Gewenst: Microsoft 365-werkaccounts, persoonlijke én gedeelde mailboxen/agenda'
 
 ## Status
 
+Er is nu ook een afzonderlijke lokale backendproef met MSAL, serversessies en versleutelde Outlook-opslag. Start met `./start-microsoft.command` op http://localhost:4176. Zie [backend/README.md](../../backend/README.md) voor de geteste onderdelen, configuratie en resterende beperkingen. De eerste proef vraagt alleen leesrechten; onderstaande schrijfrechten zijn uitsluitend toekomstig ontwerp.
+
 `login.html`, `login.css`, `login.js` en `microsoft-config.js` zijn een voorbereiding op de echte aanmelding. De knop is bewust niet actief zonder een geconfigureerde backend. Deze bestanden zijn nog niet de ingang van de gepubliceerde demo. Er is geen fictieve login die toegang tot echte gegevens pretendeert te beveiligen.
 
 ## Nog nodig voor activering

@@ -9,3 +9,5 @@ __pycache__/
 .env
 .env.*
 *.backup.json
+.venv/
+backend/private/
